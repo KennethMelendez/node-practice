@@ -1,0 +1,10 @@
+const http = require('http');
+
+const port = 5050;
+
+const server = http.createServer();
+
+server.listen(port, ()=>
+{
+    console.log(`server is not listening on port ${port}`);
+});
